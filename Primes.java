@@ -24,6 +24,6 @@ public class Primes {
             }
         }
         ratio = counter*100/N;
-        System.out.println("There are " +counter+ " primes between 2 and " + N + ". ("+ ratio +"% are primes)");
+        System.out.println("There are " +counter+ " primes between 2 and " + N + " ("+ ratio +"% are primes)");
     }
 }
