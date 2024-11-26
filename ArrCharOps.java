@@ -164,6 +164,7 @@ public class ArrCharOps {
      *         return -2 if there is an error with the input.
      */
     public static int compareTo(String str1, String str2) {
+        if (str1.isEmpty() || str2.isEmpty()) return -2;
         char str1array[] = new char[str1.length()];
         char str2array[] = new char[str2.length()];
         str1array = str1.toCharArray();
